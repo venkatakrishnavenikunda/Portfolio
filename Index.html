@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div id="header">  
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"> 
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">   
+                <h4>FULLSTACK DEVELOPER</h4><br>
+                <h1>Hi, My name is <span><i>Venkata Krishnaveni</i></span><br>from Andhra Pradesh</h1>
+            </div>
+        </div>
+     </div>
+<!----------------- About ---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/color.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a motivated and ambitious MCA graduate with a passion for technology and innovation. With a strong foundation in programming and development, I enjoy solving challenges and building creative solutions. My expertise includes Python, web development, and machine learning, and I am eager to apply my knowledge to real-world projects. As a fresher, I am excited to contribute to impactful work, collaborate with dynamic teams, and grow as a professional in the tech industry.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>FRONT END</span><br>Html<br>Css<br>JavaScript</li>
+                        <li><span>BACKEND</span><br>Python</li>
+                        <li><span>DATABASE</span><br>MySql</li>
+                        <li><span>FRAME WORK</span><br>Django</li>
+                        <li><span>Libraries</span><br>Numpy<br>Pandas<br>Matplotlib</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Projects">
+                    <ul>
+                        <li><span>Academic Project</span><br>Identification traffic rules violators detection system using Image classification and segmentation</li>
+                        <li><span>Mini Project</span><br>Smart Attendace Management System</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2021-2023</span><br>Annamacharya PG College of Computer Studies<br>(Master of Computer Applications)</li>
+                        <li><span>2018-2021</span><br>Sai Parameswara Degree College<br>(Bachelor of Computer Science)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ----------------Projects------------------ -->
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div class="learn-more">
+                <i class="fa-solid fa-code"></i>
+                <h2>Identification of Traffic Rules Violators Detection System USing Image Classification and Segmentation</h2>
+                <p>Real-time identification systems are crucial for safety, adherence to security regulations, socialism, and personal safety issues. Traffic regulations are crucial for safety because they stop motorists from colliding with people or causing accidents. They also aid in regulating traffic to make it move more effectively. According to the WHO, violations of traffic laws are the primary cause of accidents. India is a deceiving nation when it comes to traffic fatalities.</p>
+                <div class="learn">
+                    <button class="btn"><a href="#">Learn more</a></button>
+                </div>
+            </div>
+            <div class="learn-more">
+                <i class="fa-solid fa-code"></i>
+                <h2>Smart Attendace Management System</h2>
+                <p>Most of the institutions are collecting students’ attendance data in the form of google forms or by calling their roll numbers during class hours. This is a time-consuming task for both students and the faculty. So, maintaining these attendance records of the students is a tedious task for the institutions.
+                        We came up with a solution to collect students attendance data in simple way by using our project. Our project focusses on using the time efficiently by using a simple technique for taking attendance of students.</p>
+                <div class="learn">
+                    <button class="btn"><a href="#">Learn more</a></button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- --------------portfolio---------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My WORK</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/python.png">
+                <div class="layer">
+                    <h2>Python</h2>
+                    <p>"Skilled in Python programming, I develop efficient solutions for web development, data analysis, and automation. Experienced in crafting APIs, data pipelines, and scalable tools with clean coding practices."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/MySql.png">
+                <div class="layer">
+                    <h2>MySql</h2>
+                    <p>"Proficient in MySQL database design and query optimization, I create efficient schemas and manage large datasets. Experienced in ensuring data integrity and seamless integration with applications."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Front_end.jpg">
+                <div class="layer">
+                    <h2>Front End</h2>
+                    <p>"Experienced in front-end development, I specialize in building responsive, user-friendly interfaces using HTML, CSS, and JavaScript. Skilled in frameworks like React and ensuring seamless user experiences with modern design practices."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- -------------------contact------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Conatct Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>krishnakveni9030@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-9030865173</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/venkata-krishnaveni-kunda-24a393245/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/kitti_kunda/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/venkatakrishnaveni.kunda/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Kitti_kunda"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/PD.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ⓒ Made by <i class="fa-solid fa-heart"></i> Krishna veni</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzs43nO39-LzAz8lIEoVygeMX1T0dIhlTwSQBTuVUJZBzV_zV7oA0Cjphvxg6OcIeuCgQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
